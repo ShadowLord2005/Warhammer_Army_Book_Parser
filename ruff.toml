@@ -1,0 +1,7 @@
+[lint]
+select = ["C4", "F", "G", "I", "PTH", "RUF", "SIM", "TC", "UP", "W", "PERF"]
+ignore = ["F401", "F402", "F403", "F405", "PERF203", "RUF001", "RUF009", "RUF022", "RUF023", "SIM105", "UP034", "UP038"]
+
+[lint.isort]
+split-on-trailing-comma = true
+combine-as-imports = true
