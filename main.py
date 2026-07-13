@@ -128,14 +128,17 @@ img = img_from_str_path(img_path)
 
 
 for threshold in np.arange(120,180,10,dtype=float):
-    for scalef in np.arange(2.5,3.6,0.10,dtype=float):
+    #for scalef in np.arange(2.5,3.6,0.10,dtype=float):
+        scalef=3.0
         scaled = cv2.resize(img,None,None,scalef,scalef,cv2.INTER_CUBIC)
         gray = cv2.cvtColor(scaled,cv2.COLOR_BGR2GRAY)
-        ret, thresh = cv2.threshold(gray,threshold,255,cv2.THRESH_BINARY)
-        cv2.imwrite(f"outputs/{threshold}_thresh_{scalef}_scale_image.jpg",thresh)
+        erode_kernel = np.ones([5,5],np.uint8)
+        erode = cv2.erode(gray, erode_kernel, iterations=1)
+        ret, thresh = cv2.threshold(erode,threshold,255,cv2.THRESH_BINARY)
+        cv2.imwrite(f"outputs/with_erosion_51/{threshold}_thresh_{scalef:.2f}_scale_image.jpg",thresh)
 
         text = pt.image_to_string(thresh)
-        with open(f"outputs/{threshold}_thresh_{scalef}_scale_text.txt","w+") as text_ouptut:
-            text_ouptut.write(text)
+        with open(f"outputs/with_erosion_51/{threshold}_thresh_{scalef:.2f}_scale_text.txt","w+") as text_output:
+            text_output.write(text)
         print(text)
 
