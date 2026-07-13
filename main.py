@@ -58,17 +58,22 @@ def draw_bounding_boxes(image : MatLike, processed_image: MatLike, output_name :
 
     #Image Pre_Processing
 
+    #First upscale the image to increase the DPI
+    upscaled = image
+
+    #Then convert the image to black and white only using a threshold filter
+    gray = cv2.cvtColor(upscaled, cv2.COLOR_BGR2GRAY)
+    val, bw = cv2.threshold(gray,float(150),255, cv2.THRESH_BINARY)
 
 
     #Data processing
     data = pt.image_to_data(processed_image, output_type= Output.DICT)
     box_num = len(data["text"]) #Gets the number of words detected
 
+
     for i in range(box_num):
         if data["conf"][i] == -1:
             continue
-            #BGR Tuple with vals up to 255 inclusive
-            colour = (0,0,255)
         else:
             colour = (255, 0, 0)
 
@@ -121,70 +126,16 @@ img_path = "test_data/test_profiles/one_per_page/bandobras_took.jpg"
 
 img = img_from_str_path(img_path)
 
-#Version 0
 
+for threshold in np.arange(120,180,10,dtype=float):
+    for scalef in np.arange(2.5,3.6,0.10,dtype=float):
+        scaled = cv2.resize(img,None,None,scalef,scalef,cv2.INTER_CUBIC)
+        gray = cv2.cvtColor(scaled,cv2.COLOR_BGR2GRAY)
+        ret, thresh = cv2.threshold(gray,threshold,255,cv2.THRESH_BINARY)
+        cv2.imwrite(f"outputs/{threshold}_thresh_{scalef}_scale_image.jpg",thresh)
 
-#Version 1
-def sharpen(image):
-   kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
-   return cv2.filter2D(image, -1, kernel)
+        text = pt.image_to_string(thresh)
+        with open(f"outputs/{threshold}_thresh_{scalef}_scale_text.txt","w+") as text_ouptut:
+            text_ouptut.write(text)
+        print(text)
 
-#Version 2
-def sharpen2(image):
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    denoised = cv2.bilateralFilter(gray, 9, 75,75)
-    kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
-    sharpened = cv2.filter2D(denoised, -1, kernel)
-    return sharpened
-
-#Version 3
-def sharpen3(image):
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    denoised = cv2.bilateralFilter(gray, 9, 75,75)
-    kernel = np.array([[-1, -1, -1], [-1, 9, -1], [-1, -1, -1]])
-    sharpened = cv2.filter2D(denoised, -1, kernel)
-    return sharpened
-
-#Version 4
-def sharpen4(image):
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    denoised = cv2.bilateralFilter(gray, 7, 75,75)
-    kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
-    sharpened = cv2.filter2D(denoised, -1, kernel)
-    return sharpened
-
-#Version 5
-def sharpen5(image):
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    denoised = cv2.bilateralFilter(gray, 5, 75,75)
-    kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
-    sharpened = cv2.filter2D(denoised, -1, kernel)
-    return sharpened
-
-#Version 6
-def sharpen6(image):
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    denoised = cv2.bilateralFilter(gray, 5, 75,75)
-    kernel = np.array([[-1, -1, -1], [-1, 9, -1], [-1, -1, -1]])
-    sharpened = cv2.filter2D(denoised, -1, kernel)
-    return sharpened
-
-
-#Version 7
-def sharpen7(image):
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    denoised = cv2.bilateralFilter(gray, 3, 75,75)
-    kernel = np.array([[-1, -1, -1], [-1, 9, -1], [-1, -1, -1]])
-    sharpened = cv2.filter2D(denoised, -1, kernel)
-    return sharpened
-
-#Version 8
-def sharpen8(image):
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    denoised = cv2.bilateralFilter(gray, 3, 75,75)
-    kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
-    sharpened = cv2.filter2D(denoised, -1, kernel)
-    return sharpened
-
-
-draw_bounding_boxes(img,sharpen8(img), "boxed_image_8.jpg")
