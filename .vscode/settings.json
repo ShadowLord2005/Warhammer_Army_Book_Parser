@@ -1,6 +1,10 @@
 {
     "cSpell.words": [
         "ebooklib",
-        "imread"
-    ]
+        "imread",
+        "lotr",
+        "OEBPS",
+        "WARGEAR"
+    ],
+    "python.REPL.enableREPLSmartSend": false
 }
