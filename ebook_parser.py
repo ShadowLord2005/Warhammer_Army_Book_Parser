@@ -83,7 +83,9 @@ class EBookPage:
 class Profile:
     def __init__(self, profile_tags : BeautifulSoup) -> None:
         self.data = profile_tags
-        self.wargear_parser()
+        self.wargear : list[tuple[str,str,str|None]] = []
+        self.options : list[tuple[str,str, int, str|None]] = []
+        self.options_parser()
 
     def wargear_parser(self):
         data = self.data.find_all(class_=ProfilePartIdentifierClasses.WARGEAR__OPTIONS__SPECIAL_RULES.identifier)
@@ -103,7 +105,6 @@ class Profile:
                 body.append(sibling)
             else:
                 continue
-        self.wargear : list[tuple[str,str,str|None]] = []
         items_tag = body[0]
         items_text = items_tag.get_text().replace(" and ",",")
         war_gear = items_text.split(",")
@@ -136,7 +137,59 @@ class Profile:
                     continue
         print(self.wargear)
 
-
+    def options_parser(self):
+        data = self.data.find_all(class_=ProfilePartIdentifierClasses.WARGEAR__OPTIONS__SPECIAL_RULES.identifier)
+        header : Tag  | None = None
+        for item in data:
+            if item.string == "Options":
+                header = item
+                break
+        if header is None:
+            print("No Options")
+            return
+        option_items : list[Tag] = []
+        option_descriptions : list[Tag] = []
+        for sibling in header.next_siblings:
+            if sibling in data:
+                break
+            elif type(sibling) == Tag:
+                if sibling.get_text().find("points") != -1:
+                    option_items.append(sibling)
+                else:
+                    option_descriptions.append(sibling)
+            else:
+                continue
+        for tag in option_items:
+            content = tag.get_text().split(".")
+            option = content[0]
+            cost = int(content[-1].removesuffix("points"))
+            self.options.append((option,"Standard",cost,None))
+        if len(option_descriptions) < 1:
+            print("No Special Options")
+            print(self.options)
+            return
+        for description in option_descriptions:
+            description_text = description.get_text().split("–")[1:]
+            name_type = description.get_text().split("–")[0]
+            if name_type.find(" Active ") != -1:
+                option_type = "Active"
+                option_name = name_type.replace(" Active ","").strip()
+            elif name_type.find(" Passive ") != -1:
+                option_type = "Passive"
+                option_name = name_type.replace(" Passive ","").strip()
+            else:
+                option_type = "Other"
+                option_name = name_type
+            for i in range(len(self.options)):
+                if self.options[i][0] == option_name:
+                    points = self.options[i][2]
+                    self.options[i] = (option_name,option_type,points, "".join(description_text))
+                    break
+                elif i == len(self.options):
+                    self.options.append((option_name,option_type, -1,"".join(description_text)))
+                else:
+                    continue
+        print(self.options)
 
 
 
