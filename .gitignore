@@ -194,4 +194,4 @@ cython_debug/
 .cursorindexingignore
 
 
-parser_outputs/
+tmp.py

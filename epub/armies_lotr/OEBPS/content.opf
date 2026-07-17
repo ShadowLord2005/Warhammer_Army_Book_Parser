@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 19.5" />
+		<meta name="cover" content="ME_66_Army_Book_LotR_OC_300.jpg" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>Middle-earth: Armies of The Lord of the Rings</dc:title>
+		<dc:creator>Games Workshop Plc</dc:creator>
+		<dc:publisher>Games Workshop Plc</dc:publisher>
+		<dc:date>2024-11-12</dc:date>
+		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
+		<meta property="dcterms:modified">2024-11-12T13:18:13Z</meta>
+		<dc:identifier id="bookid">urn:uuid:738E2957-CAC3-4445-9CF4-A349ED448170</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">portrait</meta>
+		<meta property="rendition:spread">none</meta>
+		<!--accessibility options-->
+	</metadata>
+	<manifest>
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-1" href="ME_66_Army_Book_LotR_01-19_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-2" href="ME_66_Army_Book_LotR_01-19_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-3" href="ME_66_Army_Book_LotR_01-19_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-4" href="ME_66_Army_Book_LotR_01-19_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-5" href="ME_66_Army_Book_LotR_01-19_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-6" href="ME_66_Army_Book_LotR_01-19_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-7" href="ME_66_Army_Book_LotR_01-19_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-8" href="ME_66_Army_Book_LotR_01-19_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-9" href="ME_66_Army_Book_LotR_01-19_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-10" href="ME_66_Army_Book_LotR_01-19_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-11" href="ME_66_Army_Book_LotR_01-19_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-12" href="ME_66_Army_Book_LotR_01-19_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-13" href="ME_66_Army_Book_LotR_01-19_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-14" href="ME_66_Army_Book_LotR_01-19_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-15" href="ME_66_Army_Book_LotR_01-19_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-16" href="ME_66_Army_Book_LotR_01-19_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-17" href="ME_66_Army_Book_LotR_01-19_EPub-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-18" href="ME_66_Army_Book_LotR_01-19_EPub-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_01-19_EPub-19" href="ME_66_Army_Book_LotR_01-19_EPub-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-1" href="ME_66_Army_Book_LotR_20-35_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-2" href="ME_66_Army_Book_LotR_20-35_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-3" href="ME_66_Army_Book_LotR_20-35_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-4" href="ME_66_Army_Book_LotR_20-35_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-5" href="ME_66_Army_Book_LotR_20-35_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-6" href="ME_66_Army_Book_LotR_20-35_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-7" href="ME_66_Army_Book_LotR_20-35_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-8" href="ME_66_Army_Book_LotR_20-35_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-9" href="ME_66_Army_Book_LotR_20-35_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-10" href="ME_66_Army_Book_LotR_20-35_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-11" href="ME_66_Army_Book_LotR_20-35_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-12" href="ME_66_Army_Book_LotR_20-35_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-13" href="ME_66_Army_Book_LotR_20-35_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-14" href="ME_66_Army_Book_LotR_20-35_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-15" href="ME_66_Army_Book_LotR_20-35_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_20-35_EPub-16" href="ME_66_Army_Book_LotR_20-35_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-1" href="ME_66_Army_Book_LotR_36-55_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-2" href="ME_66_Army_Book_LotR_36-55_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-3" href="ME_66_Army_Book_LotR_36-55_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-4" href="ME_66_Army_Book_LotR_36-55_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-5" href="ME_66_Army_Book_LotR_36-55_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-6" href="ME_66_Army_Book_LotR_36-55_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-7" href="ME_66_Army_Book_LotR_36-55_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-8" href="ME_66_Army_Book_LotR_36-55_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-9" href="ME_66_Army_Book_LotR_36-55_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-10" href="ME_66_Army_Book_LotR_36-55_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-11" href="ME_66_Army_Book_LotR_36-55_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-12" href="ME_66_Army_Book_LotR_36-55_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-13" href="ME_66_Army_Book_LotR_36-55_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-14" href="ME_66_Army_Book_LotR_36-55_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-15" href="ME_66_Army_Book_LotR_36-55_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-16" href="ME_66_Army_Book_LotR_36-55_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-17" href="ME_66_Army_Book_LotR_36-55_EPub-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-18" href="ME_66_Army_Book_LotR_36-55_EPub-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-19" href="ME_66_Army_Book_LotR_36-55_EPub-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_36-55_EPub-20" href="ME_66_Army_Book_LotR_36-55_EPub-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-1" href="ME_66_Army_Book_LotR_56-71_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-2" href="ME_66_Army_Book_LotR_56-71_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-3" href="ME_66_Army_Book_LotR_56-71_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-4" href="ME_66_Army_Book_LotR_56-71_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-5" href="ME_66_Army_Book_LotR_56-71_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-6" href="ME_66_Army_Book_LotR_56-71_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-7" href="ME_66_Army_Book_LotR_56-71_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-8" href="ME_66_Army_Book_LotR_56-71_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-9" href="ME_66_Army_Book_LotR_56-71_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-10" href="ME_66_Army_Book_LotR_56-71_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-11" href="ME_66_Army_Book_LotR_56-71_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-12" href="ME_66_Army_Book_LotR_56-71_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-13" href="ME_66_Army_Book_LotR_56-71_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-14" href="ME_66_Army_Book_LotR_56-71_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-15" href="ME_66_Army_Book_LotR_56-71_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_56-71_EPub-16" href="ME_66_Army_Book_LotR_56-71_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-1" href="ME_66_Army_Book_LotR_72-87_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-2" href="ME_66_Army_Book_LotR_72-87_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-3" href="ME_66_Army_Book_LotR_72-87_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-4" href="ME_66_Army_Book_LotR_72-87_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-5" href="ME_66_Army_Book_LotR_72-87_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-6" href="ME_66_Army_Book_LotR_72-87_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-7" href="ME_66_Army_Book_LotR_72-87_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-8" href="ME_66_Army_Book_LotR_72-87_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-9" href="ME_66_Army_Book_LotR_72-87_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-10" href="ME_66_Army_Book_LotR_72-87_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-11" href="ME_66_Army_Book_LotR_72-87_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-12" href="ME_66_Army_Book_LotR_72-87_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-13" href="ME_66_Army_Book_LotR_72-87_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-14" href="ME_66_Army_Book_LotR_72-87_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-15" href="ME_66_Army_Book_LotR_72-87_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_72-87_EPub-16" href="ME_66_Army_Book_LotR_72-87_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-1" href="ME_66_Army_Book_LotR_88-103_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-2" href="ME_66_Army_Book_LotR_88-103_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-3" href="ME_66_Army_Book_LotR_88-103_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-4" href="ME_66_Army_Book_LotR_88-103_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-5" href="ME_66_Army_Book_LotR_88-103_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-6" href="ME_66_Army_Book_LotR_88-103_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-7" href="ME_66_Army_Book_LotR_88-103_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-8" href="ME_66_Army_Book_LotR_88-103_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-9" href="ME_66_Army_Book_LotR_88-103_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-10" href="ME_66_Army_Book_LotR_88-103_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-11" href="ME_66_Army_Book_LotR_88-103_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-12" href="ME_66_Army_Book_LotR_88-103_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-13" href="ME_66_Army_Book_LotR_88-103_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-14" href="ME_66_Army_Book_LotR_88-103_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-15" href="ME_66_Army_Book_LotR_88-103_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_88-103_EPub-16" href="ME_66_Army_Book_LotR_88-103_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-1" href="ME_66_Army_Book_LotR_104-119_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-2" href="ME_66_Army_Book_LotR_104-119_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-3" href="ME_66_Army_Book_LotR_104-119_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-4" href="ME_66_Army_Book_LotR_104-119_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-5" href="ME_66_Army_Book_LotR_104-119_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-6" href="ME_66_Army_Book_LotR_104-119_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-7" href="ME_66_Army_Book_LotR_104-119_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-8" href="ME_66_Army_Book_LotR_104-119_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-9" href="ME_66_Army_Book_LotR_104-119_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-10" href="ME_66_Army_Book_LotR_104-119_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-11" href="ME_66_Army_Book_LotR_104-119_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-12" href="ME_66_Army_Book_LotR_104-119_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-13" href="ME_66_Army_Book_LotR_104-119_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-14" href="ME_66_Army_Book_LotR_104-119_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-15" href="ME_66_Army_Book_LotR_104-119_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_104-119_EPub-16" href="ME_66_Army_Book_LotR_104-119_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-1" href="ME_66_Army_Book_LotR_120-135_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-2" href="ME_66_Army_Book_LotR_120-135_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-3" href="ME_66_Army_Book_LotR_120-135_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-4" href="ME_66_Army_Book_LotR_120-135_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-5" href="ME_66_Army_Book_LotR_120-135_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-6" href="ME_66_Army_Book_LotR_120-135_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-7" href="ME_66_Army_Book_LotR_120-135_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-8" href="ME_66_Army_Book_LotR_120-135_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-9" href="ME_66_Army_Book_LotR_120-135_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-10" href="ME_66_Army_Book_LotR_120-135_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-11" href="ME_66_Army_Book_LotR_120-135_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-12" href="ME_66_Army_Book_LotR_120-135_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-13" href="ME_66_Army_Book_LotR_120-135_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-14" href="ME_66_Army_Book_LotR_120-135_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-15" href="ME_66_Army_Book_LotR_120-135_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_120-135_EPub-16" href="ME_66_Army_Book_LotR_120-135_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-1" href="ME_66_Army_Book_LotR_136-157_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-2" href="ME_66_Army_Book_LotR_136-157_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-3" href="ME_66_Army_Book_LotR_136-157_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-4" href="ME_66_Army_Book_LotR_136-157_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-5" href="ME_66_Army_Book_LotR_136-157_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-6" href="ME_66_Army_Book_LotR_136-157_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-7" href="ME_66_Army_Book_LotR_136-157_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-8" href="ME_66_Army_Book_LotR_136-157_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-9" href="ME_66_Army_Book_LotR_136-157_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-10" href="ME_66_Army_Book_LotR_136-157_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-11" href="ME_66_Army_Book_LotR_136-157_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-12" href="ME_66_Army_Book_LotR_136-157_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-13" href="ME_66_Army_Book_LotR_136-157_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-14" href="ME_66_Army_Book_LotR_136-157_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-15" href="ME_66_Army_Book_LotR_136-157_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-16" href="ME_66_Army_Book_LotR_136-157_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-17" href="ME_66_Army_Book_LotR_136-157_EPub-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-18" href="ME_66_Army_Book_LotR_136-157_EPub-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-19" href="ME_66_Army_Book_LotR_136-157_EPub-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-20" href="ME_66_Army_Book_LotR_136-157_EPub-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-21" href="ME_66_Army_Book_LotR_136-157_EPub-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_136-157_EPub-22" href="ME_66_Army_Book_LotR_136-157_EPub-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-1" href="ME_66_Army_Book_LotR_158-175_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-2" href="ME_66_Army_Book_LotR_158-175_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-3" href="ME_66_Army_Book_LotR_158-175_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-4" href="ME_66_Army_Book_LotR_158-175_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-5" href="ME_66_Army_Book_LotR_158-175_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-6" href="ME_66_Army_Book_LotR_158-175_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-7" href="ME_66_Army_Book_LotR_158-175_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-8" href="ME_66_Army_Book_LotR_158-175_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-9" href="ME_66_Army_Book_LotR_158-175_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-10" href="ME_66_Army_Book_LotR_158-175_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-11" href="ME_66_Army_Book_LotR_158-175_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-12" href="ME_66_Army_Book_LotR_158-175_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-13" href="ME_66_Army_Book_LotR_158-175_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-14" href="ME_66_Army_Book_LotR_158-175_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-15" href="ME_66_Army_Book_LotR_158-175_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-16" href="ME_66_Army_Book_LotR_158-175_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-17" href="ME_66_Army_Book_LotR_158-175_EPub-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_158-175_EPub-18" href="ME_66_Army_Book_LotR_158-175_EPub-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-1" href="ME_66_Army_Book_LotR_176-191_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-2" href="ME_66_Army_Book_LotR_176-191_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-3" href="ME_66_Army_Book_LotR_176-191_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-4" href="ME_66_Army_Book_LotR_176-191_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-5" href="ME_66_Army_Book_LotR_176-191_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-6" href="ME_66_Army_Book_LotR_176-191_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-7" href="ME_66_Army_Book_LotR_176-191_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-8" href="ME_66_Army_Book_LotR_176-191_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-9" href="ME_66_Army_Book_LotR_176-191_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-10" href="ME_66_Army_Book_LotR_176-191_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-11" href="ME_66_Army_Book_LotR_176-191_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-12" href="ME_66_Army_Book_LotR_176-191_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-13" href="ME_66_Army_Book_LotR_176-191_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-14" href="ME_66_Army_Book_LotR_176-191_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-15" href="ME_66_Army_Book_LotR_176-191_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_176-191_EPub-16" href="ME_66_Army_Book_LotR_176-191_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-1" href="ME_66_Army_Book_LotR_192-209_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-2" href="ME_66_Army_Book_LotR_192-209_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-3" href="ME_66_Army_Book_LotR_192-209_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-4" href="ME_66_Army_Book_LotR_192-209_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-5" href="ME_66_Army_Book_LotR_192-209_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-6" href="ME_66_Army_Book_LotR_192-209_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-7" href="ME_66_Army_Book_LotR_192-209_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-8" href="ME_66_Army_Book_LotR_192-209_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-9" href="ME_66_Army_Book_LotR_192-209_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-10" href="ME_66_Army_Book_LotR_192-209_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-11" href="ME_66_Army_Book_LotR_192-209_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-12" href="ME_66_Army_Book_LotR_192-209_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-13" href="ME_66_Army_Book_LotR_192-209_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-14" href="ME_66_Army_Book_LotR_192-209_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-15" href="ME_66_Army_Book_LotR_192-209_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-16" href="ME_66_Army_Book_LotR_192-209_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-17" href="ME_66_Army_Book_LotR_192-209_EPub-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_192-209_EPub-18" href="ME_66_Army_Book_LotR_192-209_EPub-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-1" href="ME_66_Army_Book_LotR_210-225_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-2" href="ME_66_Army_Book_LotR_210-225_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-3" href="ME_66_Army_Book_LotR_210-225_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-4" href="ME_66_Army_Book_LotR_210-225_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-5" href="ME_66_Army_Book_LotR_210-225_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-6" href="ME_66_Army_Book_LotR_210-225_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-7" href="ME_66_Army_Book_LotR_210-225_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-8" href="ME_66_Army_Book_LotR_210-225_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-9" href="ME_66_Army_Book_LotR_210-225_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-10" href="ME_66_Army_Book_LotR_210-225_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-11" href="ME_66_Army_Book_LotR_210-225_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-12" href="ME_66_Army_Book_LotR_210-225_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-13" href="ME_66_Army_Book_LotR_210-225_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-14" href="ME_66_Army_Book_LotR_210-225_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-15" href="ME_66_Army_Book_LotR_210-225_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_210-225_EPub-16" href="ME_66_Army_Book_LotR_210-225_EPub-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-1" href="ME_66_Army_Book_LotR_226-240_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-2" href="ME_66_Army_Book_LotR_226-240_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-3" href="ME_66_Army_Book_LotR_226-240_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-4" href="ME_66_Army_Book_LotR_226-240_EPub-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-5" href="ME_66_Army_Book_LotR_226-240_EPub-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-6" href="ME_66_Army_Book_LotR_226-240_EPub-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-7" href="ME_66_Army_Book_LotR_226-240_EPub-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-8" href="ME_66_Army_Book_LotR_226-240_EPub-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-9" href="ME_66_Army_Book_LotR_226-240_EPub-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-10" href="ME_66_Army_Book_LotR_226-240_EPub-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-11" href="ME_66_Army_Book_LotR_226-240_EPub-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-12" href="ME_66_Army_Book_LotR_226-240_EPub-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-13" href="ME_66_Army_Book_LotR_226-240_EPub-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-14" href="ME_66_Army_Book_LotR_226-240_EPub-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_226-240_EPub-15" href="ME_66_Army_Book_LotR_226-240_EPub-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_BEP_EPub-1" href="ME_66_Army_Book_LotR_BEP_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_BEP_EPub-2" href="ME_66_Army_Book_LotR_BEP_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_BEP_EPub-3" href="ME_66_Army_Book_LotR_BEP_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_FEP_EPub-1" href="ME_66_Army_Book_LotR_FEP_EPub-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_FEP_EPub-2" href="ME_66_Army_Book_LotR_FEP_EPub-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="ME_66_Army_Book_LotR_FEP_EPub-3" href="ME_66_Army_Book_LotR_FEP_EPub-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles_0.css" href="css/idGeneratedStyles_0.css" media-type="text/css" />
+		<item id="idGeneratedStyles_1.css" href="css/idGeneratedStyles_1.css" media-type="text/css" />
+		<item id="idGeneratedStyles_2.css" href="css/idGeneratedStyles_2.css" media-type="text/css" />
+		<item id="idGeneratedStyles_3.css" href="css/idGeneratedStyles_3.css" media-type="text/css" />
+		<item id="idGeneratedStyles_4.css" href="css/idGeneratedStyles_4.css" media-type="text/css" />
+		<item id="idGeneratedStyles_5.css" href="css/idGeneratedStyles_5.css" media-type="text/css" />
+		<item id="idGeneratedStyles_6.css" href="css/idGeneratedStyles_6.css" media-type="text/css" />
+		<item id="idGeneratedStyles_7.css" href="css/idGeneratedStyles_7.css" media-type="text/css" />
+		<item id="idGeneratedStyles_8.css" href="css/idGeneratedStyles_8.css" media-type="text/css" />
+		<item id="idGeneratedStyles_9.css" href="css/idGeneratedStyles_9.css" media-type="text/css" />
+		<item id="idGeneratedStyles_10.css" href="css/idGeneratedStyles_10.css" media-type="text/css" />
+		<item id="idGeneratedStyles_11.css" href="css/idGeneratedStyles_11.css" media-type="text/css" />
+		<item id="idGeneratedStyles_12.css" href="css/idGeneratedStyles_12.css" media-type="text/css" />
+		<item id="idGeneratedStyles_13.css" href="css/idGeneratedStyles_13.css" media-type="text/css" />
+		<item id="idGeneratedStyles_14.css" href="css/idGeneratedStyles_14.css" media-type="text/css" />
+		<item id="idGeneratedStyles_15.css" href="css/idGeneratedStyles_15.css" media-type="text/css" />
+		<item id="idGeneratedStyles_16.css" href="css/idGeneratedStyles_16.css" media-type="text/css" />
+		<item id="BCUnciala-Grand.otf" href="font/BCUnciala-Grand.otf" media-type="application/vnd.ms-opentype" />
+		<item id="BCUnciala-Petit.otf" href="font/BCUnciala-Petit.otf" media-type="application/vnd.ms-opentype" />
+		<item id="BCUnciala-Regular.otf" href="font/BCUnciala-Regular.otf" media-type="application/vnd.ms-opentype" />
+		<item id="ComicSansMS-Bold.ttf" href="font/ComicSansMS-Bold.ttf" media-type="application/x-font-ttf" />
+		<item id="P22MackinacPro-Bold.otf" href="font/P22MackinacPro-Bold.otf" media-type="application/vnd.ms-opentype" />
+		<item id="P22MackinacPro-BoldItalic.otf" href="font/P22MackinacPro-BoldItalic.otf" media-type="application/vnd.ms-opentype" />
+		<item id="P22MackinacProBook-Italic.otf" href="font/P22MackinacProBook-Italic.otf" media-type="application/vnd.ms-opentype" />
+		<item id="P22MackinacProBook.otf" href="font/P22MackinacProBook.otf" media-type="application/vnd.ms-opentype" />
+		<item id="P22MackinacProExtraBold.otf" href="font/P22MackinacProExtraBold.otf" media-type="application/vnd.ms-opentype" />
+		<item id="P22MackinacProMedium-Italic.otf" href="font/P22MackinacProMedium-Italic.otf" media-type="application/vnd.ms-opentype" />
+		<item id="PMackinacProMedium.otf" href="font/PMackinacProMedium.otf" media-type="application/vnd.ms-opentype" />
+		<item id="x23.png" href="image/23.png" media-type="image/png" />
+		<item id="x34.png" href="image/34.png" media-type="image/png" />
+		<item id="x35.png" href="image/35.png" media-type="image/png" />
+		<item id="x36.png" href="image/36.png" media-type="image/png" />
+		<item id="x38.png" href="image/38.png" media-type="image/png" />
+		<item id="x61.png" href="image/61.png" media-type="image/png" />
+		<item id="x62.png" href="image/62.png" media-type="image/png" />
+		<item id="x78.png" href="image/78.png" media-type="image/png" />
+		<item id="x80.png" href="image/80.png" media-type="image/png" />
+		<item id="x81.png" href="image/81.png" media-type="image/png" />
+		<item id="x87.png" href="image/87.png" media-type="image/png" />
+		<item id="x96.png" href="image/96.png" media-type="image/png" />
+		<item id="x97.png" href="image/97.png" media-type="image/png" />
+		<item id="x99.png" href="image/99.png" media-type="image/png" />
+		<item id="x100.png" href="image/100.png" media-type="image/png" />
+		<item id="x102.png" href="image/102.png" media-type="image/png" />
+		<item id="x111.png" href="image/111.png" media-type="image/png" />
+		<item id="x123.png" href="image/123.png" media-type="image/png" />
+		<item id="x134.png" href="image/134.png" media-type="image/png" />
+		<item id="x145.png" href="image/145.png" media-type="image/png" />
+		<item id="x155.png" href="image/155.png" media-type="image/png" />
+		<item id="x167.png" href="image/167.png" media-type="image/png" />
+		<item id="x168.png" href="image/168.png" media-type="image/png" />
+		<item id="x179.png" href="image/179.png" media-type="image/png" />
+		<item id="x192.png" href="image/192.png" media-type="image/png" />
+		<item id="x198.png" href="image/198.png" media-type="image/png" />
+		<item id="x202.png" href="image/202.png" media-type="image/png" />
+		<item id="x211.png" href="image/211.png" media-type="image/png" />
+		<item id="x243.png" href="image/243.png" media-type="image/png" />
+		<item id="x244.png" href="image/244.png" media-type="image/png" />
+		<item id="x257.png" href="image/257.png" media-type="image/png" />
+		<item id="x270.png" href="image/270.png" media-type="image/png" />
+		<item id="x271.png" href="image/271.png" media-type="image/png" />
+		<item id="x272.png" href="image/272.png" media-type="image/png" />
+		<item id="x283.png" href="image/283.png" media-type="image/png" />
+		<item id="x296.png" href="image/296.png" media-type="image/png" />
+		<item id="x297.png" href="image/297.png" media-type="image/png" />
+		<item id="x306.png" href="image/306.png" media-type="image/png" />
+		<item id="x319.png" href="image/319.png" media-type="image/png" />
+		<item id="x351.png" href="image/351.png" media-type="image/png" />
+		<item id="x353.png" href="image/353.png" media-type="image/png" />
+		<item id="x354.png" href="image/354.png" media-type="image/png" />
+		<item id="x360.png" href="image/360.png" media-type="image/png" />
+		<item id="x361.png" href="image/361.png" media-type="image/png" />
+		<item id="x374.png" href="image/374.png" media-type="image/png" />
+		<item id="x375.png" href="image/375.png" media-type="image/png" />
+		<item id="x382.png" href="image/382.png" media-type="image/png" />
+		<item id="x393.png" href="image/393.png" media-type="image/png" />
+		<item id="x394.png" href="image/394.png" media-type="image/png" />
+		<item id="x402.png" href="image/402.png" media-type="image/png" />
+		<item id="x415.png" href="image/415.png" media-type="image/png" />
+		<item id="x416.png" href="image/416.png" media-type="image/png" />
+		<item id="x439.png" href="image/439.png" media-type="image/png" />
+		<item id="x440.png" href="image/440.png" media-type="image/png" />
+		<item id="x451.png" href="image/451.png" media-type="image/png" />
+		<item id="x452.png" href="image/452.png" media-type="image/png" />
+		<item id="x467.png" href="image/467.png" media-type="image/png" />
+		<item id="x488.png" href="image/488.png" media-type="image/png" />
+		<item id="x489.png" href="image/489.png" media-type="image/png" />
+		<item id="x512.png" href="image/512.png" media-type="image/png" />
+		<item id="x513.png" href="image/513.png" media-type="image/png" />
+		<item id="x526.png" href="image/526.png" media-type="image/png" />
+		<item id="x528.png" href="image/528.png" media-type="image/png" />
+		<item id="x534.png" href="image/534.png" media-type="image/png" />
+		<item id="x547.png" href="image/547.png" media-type="image/png" />
+		<item id="x548.png" href="image/548.png" media-type="image/png" />
+		<item id="x562.png" href="image/562.png" media-type="image/png" />
+		<item id="x563.png" href="image/563.png" media-type="image/png" />
+		<item id="x576.png" href="image/576.png" media-type="image/png" />
+		<item id="x577.png" href="image/577.png" media-type="image/png" />
+		<item id="x590.png" href="image/590.png" media-type="image/png" />
+		<item id="x591.png" href="image/591.png" media-type="image/png" />
+		<item id="x592.png" href="image/592.png" media-type="image/png" />
+		<item id="x605.png" href="image/605.png" media-type="image/png" />
+		<item id="x606.png" href="image/606.png" media-type="image/png" />
+		<item id="x624.png" href="image/624.png" media-type="image/png" />
+		<item id="x625.png" href="image/625.png" media-type="image/png" />
+		<item id="x642.png" href="image/642.png" media-type="image/png" />
+		<item id="x643.png" href="image/643.png" media-type="image/png" />
+		<item id="x657.png" href="image/657.png" media-type="image/png" />
+		<item id="x668.png" href="image/668.png" media-type="image/png" />
+		<item id="x681.png" href="image/681.png" media-type="image/png" />
+		<item id="x692.png" href="image/692.png" media-type="image/png" />
+		<item id="x708.png" href="image/708.png" media-type="image/png" />
+		<item id="x710.png" href="image/710.png" media-type="image/png" />
+		<item id="x723.png" href="image/723.png" media-type="image/png" />
+		<item id="x724.png" href="image/724.png" media-type="image/png" />
+		<item id="x735.png" href="image/735.png" media-type="image/png" />
+		<item id="x748.png" href="image/748.png" media-type="image/png" />
+		<item id="x769.png" href="image/769.png" media-type="image/png" />
+		<item id="x770.png" href="image/770.png" media-type="image/png" />
+		<item id="x787.png" href="image/787.png" media-type="image/png" />
+		<item id="x788.png" href="image/788.png" media-type="image/png" />
+		<item id="x799.png" href="image/799.png" media-type="image/png" />
+		<item id="x816.png" href="image/816.png" media-type="image/png" />
+		<item id="x817.png" href="image/817.png" media-type="image/png" />
+		<item id="x832.png" href="image/832.png" media-type="image/png" />
+		<item id="x833.png" href="image/833.png" media-type="image/png" />
+		<item id="x846.png" href="image/846.png" media-type="image/png" />
+		<item id="x847.png" href="image/847.png" media-type="image/png" />
+		<item id="x859.png" href="image/859.png" media-type="image/png" />
+		<item id="x872.png" href="image/872.png" media-type="image/png" />
+		<item id="x890.png" href="image/890.png" media-type="image/png" />
+		<item id="x891.png" href="image/891.png" media-type="image/png" />
+		<item id="x904.png" href="image/904.png" media-type="image/png" />
+		<item id="x922.png" href="image/922.png" media-type="image/png" />
+		<item id="x923.png" href="image/923.png" media-type="image/png" />
+		<item id="x955.png" href="image/955.png" media-type="image/png" />
+		<item id="x968.png" href="image/968.png" media-type="image/png" />
+		<item id="x969.png" href="image/969.png" media-type="image/png" />
+		<item id="x970.png" href="image/970.png" media-type="image/png" />
+		<item id="x983.png" href="image/983.png" media-type="image/png" />
+		<item id="x986.png" href="image/986.png" media-type="image/png" />
+		<item id="x1005.png" href="image/1005.png" media-type="image/png" />
+		<item id="x1026.png" href="image/1026.png" media-type="image/png" />
+		<item id="x1029.png" href="image/1029.png" media-type="image/png" />
+		<item id="x1045.png" href="image/1045.png" media-type="image/png" />
+		<item id="x1056.png" href="image/1056.png" media-type="image/png" />
+		<item id="x1057.png" href="image/1057.png" media-type="image/png" />
+		<item id="x1068.png" href="image/1068.png" media-type="image/png" />
+		<item id="x1069.png" href="image/1069.png" media-type="image/png" />
+		<item id="x1070.png" href="image/1070.png" media-type="image/png" />
+		<item id="x1091.png" href="image/1091.png" media-type="image/png" />
+		<item id="x1100.png" href="image/1100.png" media-type="image/png" />
+		<item id="x1119.png" href="image/1119.png" media-type="image/png" />
+		<item id="x1125.png" href="image/1125.png" media-type="image/png" />
+		<item id="x1126.png" href="image/1126.png" media-type="image/png" />
+		<item id="x1127.png" href="image/1127.png" media-type="image/png" />
+		<item id="x1134.png" href="image/1134.png" media-type="image/png" />
+		<item id="x1136.png" href="image/1136.png" media-type="image/png" />
+		<item id="x1137.png" href="image/1137.png" media-type="image/png" />
+		<item id="x1146.png" href="image/1146.png" media-type="image/png" />
+		<item id="x1147.png" href="image/1147.png" media-type="image/png" />
+		<item id="x1148.png" href="image/1148.png" media-type="image/png" />
+		<item id="x1160.png" href="image/1160.png" media-type="image/png" />
+		<item id="x1162.png" href="image/1162.png" media-type="image/png" />
+		<item id="x1163.png" href="image/1163.png" media-type="image/png" />
+		<item id="x1165.png" href="image/1165.png" media-type="image/png" />
+		<item id="x1175.png" href="image/1175.png" media-type="image/png" />
+		<item id="x1176.png" href="image/1176.png" media-type="image/png" />
+		<item id="x1189.png" href="image/1189.png" media-type="image/png" />
+		<item id="x1190.png" href="image/1190.png" media-type="image/png" />
+		<item id="x1191.png" href="image/1191.png" media-type="image/png" />
+		<item id="x1204.png" href="image/1204.png" media-type="image/png" />
+		<item id="x1205.png" href="image/1205.png" media-type="image/png" />
+		<item id="x1220.png" href="image/1220.png" media-type="image/png" />
+		<item id="x1223.png" href="image/1223.png" media-type="image/png" />
+		<item id="x1234.png" href="image/1234.png" media-type="image/png" />
+		<item id="x1235.png" href="image/1235.png" media-type="image/png" />
+		<item id="x1248.png" href="image/1248.png" media-type="image/png" />
+		<item id="x1249.png" href="image/1249.png" media-type="image/png" />
+		<item id="x1263.png" href="image/1263.png" media-type="image/png" />
+		<item id="x1265.png" href="image/1265.png" media-type="image/png" />
+		<item id="x1278.png" href="image/1278.png" media-type="image/png" />
+		<item id="x1280.png" href="image/1280.png" media-type="image/png" />
+		<item id="x1293.png" href="image/1293.png" media-type="image/png" />
+		<item id="x1295.png" href="image/1295.png" media-type="image/png" />
+		<item id="x1310.png" href="image/1310.png" media-type="image/png" />
+		<item id="x1311.png" href="image/1311.png" media-type="image/png" />
+		<item id="x1312.png" href="image/1312.png" media-type="image/png" />
+		<item id="x1324.png" href="image/1324.png" media-type="image/png" />
+		<item id="x1340.png" href="image/1340.png" media-type="image/png" />
+		<item id="x1344.png" href="image/1344.png" media-type="image/png" />
+		<item id="x1355.png" href="image/1355.png" media-type="image/png" />
+		<item id="x1356.png" href="image/1356.png" media-type="image/png" />
+		<item id="x1367.png" href="image/1367.png" media-type="image/png" />
+		<item id="x1372.png" href="image/1372.png" media-type="image/png" />
+		<item id="x1373.png" href="image/1373.png" media-type="image/png" />
+		<item id="x1382.png" href="image/1382.png" media-type="image/png" />
+		<item id="x1383.png" href="image/1383.png" media-type="image/png" />
+		<item id="x1393.png" href="image/1393.png" media-type="image/png" />
+		<item id="x1403.png" href="image/1403.png" media-type="image/png" />
+		<item id="x1415.png" href="image/1415.png" media-type="image/png" />
+		<item id="x1426.png" href="image/1426.png" media-type="image/png" />
+		<item id="x1436.png" href="image/1436.png" media-type="image/png" />
+		<item id="x1446.png" href="image/1446.png" media-type="image/png" />
+		<item id="x1457.png" href="image/1457.png" media-type="image/png" />
+		<item id="x1480.png" href="image/1480.png" media-type="image/png" />
+		<item id="x1481.png" href="image/1481.png" media-type="image/png" />
+		<item id="x1482.png" href="image/1482.png" media-type="image/png" />
+		<item id="x1483.png" href="image/1483.png" media-type="image/png" />
+		<item id="x1497.png" href="image/1497.png" media-type="image/png" />
+		<item id="x1500.png" href="image/1500.png" media-type="image/png" />
+		<item id="x1501.png" href="image/1501.png" media-type="image/png" />
+		<item id="x1509.png" href="image/1509.png" media-type="image/png" />
+		<item id="x1510.png" href="image/1510.png" media-type="image/png" />
+		<item id="x1511.png" href="image/1511.png" media-type="image/png" />
+		<item id="x1524.png" href="image/1524.png" media-type="image/png" />
+		<item id="x1525.png" href="image/1525.png" media-type="image/png" />
+		<item id="x1537.png" href="image/1537.png" media-type="image/png" />
+		<item id="x1550.png" href="image/1550.png" media-type="image/png" />
+		<item id="x1561.png" href="image/1561.png" media-type="image/png" />
+		<item id="x1572.png" href="image/1572.png" media-type="image/png" />
+		<item id="x1573.png" href="image/1573.png" media-type="image/png" />
+		<item id="x1587.png" href="image/1587.png" media-type="image/png" />
+		<item id="x1599.png" href="image/1599.png" media-type="image/png" />
+		<item id="x1613.png" href="image/1613.png" media-type="image/png" />
+		<item id="x1637.png" href="image/1637.png" media-type="image/png" />
+		<item id="x1656.png" href="image/1656.png" media-type="image/png" />
+		<item id="x1666.png" href="image/1666.png" media-type="image/png" />
+		<item id="x1689.png" href="image/1689.png" media-type="image/png" />
+		<item id="x1690.png" href="image/1690.png" media-type="image/png" />
+		<item id="x1710.png" href="image/1710.png" media-type="image/png" />
+		<item id="x1711.png" href="image/1711.png" media-type="image/png" />
+		<item id="x1729.png" href="image/1729.png" media-type="image/png" />
+		<item id="x1730.png" href="image/1730.png" media-type="image/png" />
+		<item id="x1750.png" href="image/1750.png" media-type="image/png" />
+		<item id="x1759.png" href="image/1759.png" media-type="image/png" />
+		<item id="x1779.png" href="image/1779.png" media-type="image/png" />
+		<item id="x1780.png" href="image/1780.png" media-type="image/png" />
+		<item id="x1794.png" href="image/1794.png" media-type="image/png" />
+		<item id="x1805.png" href="image/1805.png" media-type="image/png" />
+		<item id="x1818.png" href="image/1818.png" media-type="image/png" />
+		<item id="x1829.png" href="image/1829.png" media-type="image/png" />
+		<item id="x1852.png" href="image/1852.png" media-type="image/png" />
+		<item id="x1853.png" href="image/1853.png" media-type="image/png" />
+		<item id="x1881.png" href="image/1881.png" media-type="image/png" />
+		<item id="x1893.png" href="image/1893.png" media-type="image/png" />
+		<item id="x1913.png" href="image/1913.png" media-type="image/png" />
+		<item id="x1919.png" href="image/1919.png" media-type="image/png" />
+		<item id="x1941.png" href="image/1941.png" media-type="image/png" />
+		<item id="x1953.png" href="image/1953.png" media-type="image/png" />
+		<item id="x1989.png" href="image/1989.png" media-type="image/png" />
+		<item id="x1999.png" href="image/1999.png" media-type="image/png" />
+		<item id="x2010.png" href="image/2010.png" media-type="image/png" />
+		<item id="x2013.png" href="image/2013.png" media-type="image/png" />
+		<item id="x2031.png" href="image/2031.png" media-type="image/png" />
+		<item id="x2032.png" href="image/2032.png" media-type="image/png" />
+		<item id="x2044.png" href="image/2044.png" media-type="image/png" />
+		<item id="x2045.png" href="image/2045.png" media-type="image/png" />
+		<item id="x2059.png" href="image/2059.png" media-type="image/png" />
+		<item id="x2082.png" href="image/2082.png" media-type="image/png" />
+		<item id="x2083.png" href="image/2083.png" media-type="image/png" />
+		<item id="x2099.png" href="image/2099.png" media-type="image/png" />
+		<item id="x2106.png" href="image/2106.png" media-type="image/png" />
+		<item id="x2116.png" href="image/2116.png" media-type="image/png" />
+		<item id="x2130.png" href="image/2130.png" media-type="image/png" />
+		<item id="x2132.png" href="image/2132.png" media-type="image/png" />
+		<item id="x2150.png" href="image/2150.png" media-type="image/png" />
+		<item id="x2151.png" href="image/2151.png" media-type="image/png" />
+		<item id="x2163.png" href="image/2163.png" media-type="image/png" />
+		<item id="x2164.png" href="image/2164.png" media-type="image/png" />
+		<item id="x2179.png" href="image/2179.png" media-type="image/png" />
+		<item id="x2182.png" href="image/2182.png" media-type="image/png" />
+		<item id="x2183.png" href="image/2183.png" media-type="image/png" />
+		<item id="x2210.png" href="image/2210.png" media-type="image/png" />
+		<item id="x2211.png" href="image/2211.png" media-type="image/png" />
+		<item id="x2217.png" href="image/2217.png" media-type="image/png" />
+		<item id="x2233.png" href="image/2233.png" media-type="image/png" />
+		<item id="x2234.png" href="image/2234.png" media-type="image/png" />
+		<item id="x2236.png" href="image/2236.png" media-type="image/png" />
+		<item id="x2243.png" href="image/2243.png" media-type="image/png" />
+		<item id="x2269.png" href="image/2269.png" media-type="image/png" />
+		<item id="x2271.png" href="image/2271.png" media-type="image/png" />
+		<item id="x2272.png" href="image/2272.png" media-type="image/png" />
+		<item id="x2278.png" href="image/2278.png" media-type="image/png" />
+		<item id="x2279.png" href="image/2279.png" media-type="image/png" />
+		<item id="x2311.png" href="image/2311.png" media-type="image/png" />
+		<item id="x2324.png" href="image/2324.png" media-type="image/png" />
+		<item id="x2355.png" href="image/2355.png" media-type="image/png" />
+		<item id="x2366.png" href="image/2366.png" media-type="image/png" />
+		<item id="x2376.png" href="image/2376.png" media-type="image/png" />
+		<item id="x2387.png" href="image/2387.png" media-type="image/png" />
+		<item id="x2398.png" href="image/2398.png" media-type="image/png" />
+		<item id="x2408.png" href="image/2408.png" media-type="image/png" />
+		<item id="x2420.png" href="image/2420.png" media-type="image/png" />
+		<item id="x2430.png" href="image/2430.png" media-type="image/png" />
+		<item id="x2441.png" href="image/2441.png" media-type="image/png" />
+		<item id="x2442.png" href="image/2442.png" media-type="image/png" />
+		<item id="x2451.png" href="image/2451.png" media-type="image/png" />
+		<item id="x2462.png" href="image/2462.png" media-type="image/png" />
+		<item id="x2473.png" href="image/2473.png" media-type="image/png" />
+		<item id="x2482.png" href="image/2482.png" media-type="image/png" />
+		<item id="x2483.png" href="image/2483.png" media-type="image/png" />
+		<item id="x2494.png" href="image/2494.png" media-type="image/png" />
+		<item id="x2505.png" href="image/2505.png" media-type="image/png" />
+		<item id="x2516.png" href="image/2516.png" media-type="image/png" />
+		<item id="x2527.png" href="image/2527.png" media-type="image/png" />
+		<item id="x2537.png" href="image/2537.png" media-type="image/png" />
+		<item id="x2548.png" href="image/2548.png" media-type="image/png" />
+		<item id="ME_66_Army_Book_LotR_OC_300.jpg" href="image/ME_66_Army_Book_LotR_OC_300.jpg" media-type="image/jpeg" properties="cover-image" />
+		<item id="Warhammer_dotcom_URL.png" href="image/Warhammer_dotcom_URL.png" media-type="image/png" />
+		<item id="XX_P66_ARmy_Book_1_EPub_01.jpg" href="image/XX_P66_ARmy_Book_1_EPub_01.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_01-1-.jpg" href="image/XX_P66_ARmy_Book_1_EPub_01%281%29.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_02.jpg" href="image/XX_P66_ARmy_Book_1_EPub_02.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_02-1-.jpg" href="image/XX_P66_ARmy_Book_1_EPub_02%281%29.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_03.jpg" href="image/XX_P66_ARmy_Book_1_EPub_03.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_03-1-.jpg" href="image/XX_P66_ARmy_Book_1_EPub_03%281%29.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_04.jpg" href="image/XX_P66_ARmy_Book_1_EPub_04.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_05.jpg" href="image/XX_P66_ARmy_Book_1_EPub_05.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_06.jpg" href="image/XX_P66_ARmy_Book_1_EPub_06.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_07.jpg" href="image/XX_P66_ARmy_Book_1_EPub_07.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_08.jpg" href="image/XX_P66_ARmy_Book_1_EPub_08.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_09.jpg" href="image/XX_P66_ARmy_Book_1_EPub_09.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_10.jpg" href="image/XX_P66_ARmy_Book_1_EPub_10.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_11.jpg" href="image/XX_P66_ARmy_Book_1_EPub_11.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_12.jpg" href="image/XX_P66_ARmy_Book_1_EPub_12.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_13.jpg" href="image/XX_P66_ARmy_Book_1_EPub_13.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_14.jpg" href="image/XX_P66_ARmy_Book_1_EPub_14.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_15.jpg" href="image/XX_P66_ARmy_Book_1_EPub_15.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_16.jpg" href="image/XX_P66_ARmy_Book_1_EPub_16.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_17.jpg" href="image/XX_P66_ARmy_Book_1_EPub_17.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_18.jpg" href="image/XX_P66_ARmy_Book_1_EPub_18.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_19.jpg" href="image/XX_P66_ARmy_Book_1_EPub_19.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_20.jpg" href="image/XX_P66_ARmy_Book_1_EPub_20.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_21.jpg" href="image/XX_P66_ARmy_Book_1_EPub_21.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_22.jpg" href="image/XX_P66_ARmy_Book_1_EPub_22.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_23.jpg" href="image/XX_P66_ARmy_Book_1_EPub_23.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_24.jpg" href="image/XX_P66_ARmy_Book_1_EPub_24.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_25.jpg" href="image/XX_P66_ARmy_Book_1_EPub_25.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_26.jpg" href="image/XX_P66_ARmy_Book_1_EPub_26.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_27.jpg" href="image/XX_P66_ARmy_Book_1_EPub_27.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_28.jpg" href="image/XX_P66_ARmy_Book_1_EPub_28.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_29.jpg" href="image/XX_P66_ARmy_Book_1_EPub_29.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_30.jpg" href="image/XX_P66_ARmy_Book_1_EPub_30.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_31.jpg" href="image/XX_P66_ARmy_Book_1_EPub_31.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_32.jpg" href="image/XX_P66_ARmy_Book_1_EPub_32.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_33.jpg" href="image/XX_P66_ARmy_Book_1_EPub_33.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_34.jpg" href="image/XX_P66_ARmy_Book_1_EPub_34.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_35.jpg" href="image/XX_P66_ARmy_Book_1_EPub_35.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_36.jpg" href="image/XX_P66_ARmy_Book_1_EPub_36.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_37.jpg" href="image/XX_P66_ARmy_Book_1_EPub_37.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_38.jpg" href="image/XX_P66_ARmy_Book_1_EPub_38.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_39.jpg" href="image/XX_P66_ARmy_Book_1_EPub_39.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_40.jpg" href="image/XX_P66_ARmy_Book_1_EPub_40.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_41.jpg" href="image/XX_P66_ARmy_Book_1_EPub_41.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_42.jpg" href="image/XX_P66_ARmy_Book_1_EPub_42.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_43.jpg" href="image/XX_P66_ARmy_Book_1_EPub_43.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_44.jpg" href="image/XX_P66_ARmy_Book_1_EPub_44.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_45.jpg" href="image/XX_P66_ARmy_Book_1_EPub_45.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_46.jpg" href="image/XX_P66_ARmy_Book_1_EPub_46.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_47.jpg" href="image/XX_P66_ARmy_Book_1_EPub_47.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_48.jpg" href="image/XX_P66_ARmy_Book_1_EPub_48.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_49.jpg" href="image/XX_P66_ARmy_Book_1_EPub_49.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_50.jpg" href="image/XX_P66_ARmy_Book_1_EPub_50.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_51.jpg" href="image/XX_P66_ARmy_Book_1_EPub_51.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_52.jpg" href="image/XX_P66_ARmy_Book_1_EPub_52.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_53.jpg" href="image/XX_P66_ARmy_Book_1_EPub_53.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_54.jpg" href="image/XX_P66_ARmy_Book_1_EPub_54.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_55.jpg" href="image/XX_P66_ARmy_Book_1_EPub_55.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_56.jpg" href="image/XX_P66_ARmy_Book_1_EPub_56.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_57.jpg" href="image/XX_P66_ARmy_Book_1_EPub_57.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_58.jpg" href="image/XX_P66_ARmy_Book_1_EPub_58.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_59.jpg" href="image/XX_P66_ARmy_Book_1_EPub_59.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_60.jpg" href="image/XX_P66_ARmy_Book_1_EPub_60.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_61.jpg" href="image/XX_P66_ARmy_Book_1_EPub_61.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_62.jpg" href="image/XX_P66_ARmy_Book_1_EPub_62.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_63.jpg" href="image/XX_P66_ARmy_Book_1_EPub_63.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_64.jpg" href="image/XX_P66_ARmy_Book_1_EPub_64.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_65.jpg" href="image/XX_P66_ARmy_Book_1_EPub_65.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_66.jpg" href="image/XX_P66_ARmy_Book_1_EPub_66.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_67.jpg" href="image/XX_P66_ARmy_Book_1_EPub_67.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_68.jpg" href="image/XX_P66_ARmy_Book_1_EPub_68.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_69.jpg" href="image/XX_P66_ARmy_Book_1_EPub_69.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_70.jpg" href="image/XX_P66_ARmy_Book_1_EPub_70.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_71.jpg" href="image/XX_P66_ARmy_Book_1_EPub_71.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_72.jpg" href="image/XX_P66_ARmy_Book_1_EPub_72.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_73.jpg" href="image/XX_P66_ARmy_Book_1_EPub_73.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_74.jpg" href="image/XX_P66_ARmy_Book_1_EPub_74.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_75.jpg" href="image/XX_P66_ARmy_Book_1_EPub_75.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_76.jpg" href="image/XX_P66_ARmy_Book_1_EPub_76.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_77.jpg" href="image/XX_P66_ARmy_Book_1_EPub_77.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_78.jpg" href="image/XX_P66_ARmy_Book_1_EPub_78.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_79.jpg" href="image/XX_P66_ARmy_Book_1_EPub_79.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_80.jpg" href="image/XX_P66_ARmy_Book_1_EPub_80.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_81.jpg" href="image/XX_P66_ARmy_Book_1_EPub_81.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_82.jpg" href="image/XX_P66_ARmy_Book_1_EPub_82.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_83.jpg" href="image/XX_P66_ARmy_Book_1_EPub_83.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_84.jpg" href="image/XX_P66_ARmy_Book_1_EPub_84.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_85.jpg" href="image/XX_P66_ARmy_Book_1_EPub_85.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_86.jpg" href="image/XX_P66_ARmy_Book_1_EPub_86.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_87.jpg" href="image/XX_P66_ARmy_Book_1_EPub_87.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_88.jpg" href="image/XX_P66_ARmy_Book_1_EPub_88.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_89.jpg" href="image/XX_P66_ARmy_Book_1_EPub_89.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_90.jpg" href="image/XX_P66_ARmy_Book_1_EPub_90.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_91.jpg" href="image/XX_P66_ARmy_Book_1_EPub_91.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_92.jpg" href="image/XX_P66_ARmy_Book_1_EPub_92.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_93.jpg" href="image/XX_P66_ARmy_Book_1_EPub_93.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_94.jpg" href="image/XX_P66_ARmy_Book_1_EPub_94.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_95.jpg" href="image/XX_P66_ARmy_Book_1_EPub_95.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_96.jpg" href="image/XX_P66_ARmy_Book_1_EPub_96.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_97.jpg" href="image/XX_P66_ARmy_Book_1_EPub_97.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_98.jpg" href="image/XX_P66_ARmy_Book_1_EPub_98.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_99.jpg" href="image/XX_P66_ARmy_Book_1_EPub_99.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_100.jpg" href="image/XX_P66_ARmy_Book_1_EPub_100.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_101.jpg" href="image/XX_P66_ARmy_Book_1_EPub_101.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_102.jpg" href="image/XX_P66_ARmy_Book_1_EPub_102.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_103.jpg" href="image/XX_P66_ARmy_Book_1_EPub_103.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_104.jpg" href="image/XX_P66_ARmy_Book_1_EPub_104.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_105.jpg" href="image/XX_P66_ARmy_Book_1_EPub_105.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_106.jpg" href="image/XX_P66_ARmy_Book_1_EPub_106.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_107.jpg" href="image/XX_P66_ARmy_Book_1_EPub_107.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_108.jpg" href="image/XX_P66_ARmy_Book_1_EPub_108.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_109.jpg" href="image/XX_P66_ARmy_Book_1_EPub_109.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_110.jpg" href="image/XX_P66_ARmy_Book_1_EPub_110.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_111.jpg" href="image/XX_P66_ARmy_Book_1_EPub_111.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_112.jpg" href="image/XX_P66_ARmy_Book_1_EPub_112.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_113.jpg" href="image/XX_P66_ARmy_Book_1_EPub_113.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_114.jpg" href="image/XX_P66_ARmy_Book_1_EPub_114.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_115.jpg" href="image/XX_P66_ARmy_Book_1_EPub_115.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_116.jpg" href="image/XX_P66_ARmy_Book_1_EPub_116.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_117.jpg" href="image/XX_P66_ARmy_Book_1_EPub_117.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_118.jpg" href="image/XX_P66_ARmy_Book_1_EPub_118.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_119.jpg" href="image/XX_P66_ARmy_Book_1_EPub_119.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_120.jpg" href="image/XX_P66_ARmy_Book_1_EPub_120.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_121.jpg" href="image/XX_P66_ARmy_Book_1_EPub_121.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_122.jpg" href="image/XX_P66_ARmy_Book_1_EPub_122.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_123.jpg" href="image/XX_P66_ARmy_Book_1_EPub_123.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_124.jpg" href="image/XX_P66_ARmy_Book_1_EPub_124.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_125.jpg" href="image/XX_P66_ARmy_Book_1_EPub_125.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_126.jpg" href="image/XX_P66_ARmy_Book_1_EPub_126.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_127.jpg" href="image/XX_P66_ARmy_Book_1_EPub_127.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_128.jpg" href="image/XX_P66_ARmy_Book_1_EPub_128.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_129.jpg" href="image/XX_P66_ARmy_Book_1_EPub_129.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_130.jpg" href="image/XX_P66_ARmy_Book_1_EPub_130.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_131.jpg" href="image/XX_P66_ARmy_Book_1_EPub_131.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_132.jpg" href="image/XX_P66_ARmy_Book_1_EPub_132.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_133.jpg" href="image/XX_P66_ARmy_Book_1_EPub_133.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_134.jpg" href="image/XX_P66_ARmy_Book_1_EPub_134.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_135.jpg" href="image/XX_P66_ARmy_Book_1_EPub_135.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_136.jpg" href="image/XX_P66_ARmy_Book_1_EPub_136.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_137.jpg" href="image/XX_P66_ARmy_Book_1_EPub_137.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_138.jpg" href="image/XX_P66_ARmy_Book_1_EPub_138.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_139.jpg" href="image/XX_P66_ARmy_Book_1_EPub_139.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_140.jpg" href="image/XX_P66_ARmy_Book_1_EPub_140.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_141.jpg" href="image/XX_P66_ARmy_Book_1_EPub_141.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_142.jpg" href="image/XX_P66_ARmy_Book_1_EPub_142.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_143.jpg" href="image/XX_P66_ARmy_Book_1_EPub_143.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_144.jpg" href="image/XX_P66_ARmy_Book_1_EPub_144.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_145.jpg" href="image/XX_P66_ARmy_Book_1_EPub_145.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_146.jpg" href="image/XX_P66_ARmy_Book_1_EPub_146.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_147.jpg" href="image/XX_P66_ARmy_Book_1_EPub_147.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_148.jpg" href="image/XX_P66_ARmy_Book_1_EPub_148.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_149.jpg" href="image/XX_P66_ARmy_Book_1_EPub_149.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_150.jpg" href="image/XX_P66_ARmy_Book_1_EPub_150.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_151.jpg" href="image/XX_P66_ARmy_Book_1_EPub_151.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_152.jpg" href="image/XX_P66_ARmy_Book_1_EPub_152.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_153.jpg" href="image/XX_P66_ARmy_Book_1_EPub_153.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_154.jpg" href="image/XX_P66_ARmy_Book_1_EPub_154.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_155.jpg" href="image/XX_P66_ARmy_Book_1_EPub_155.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_156.jpg" href="image/XX_P66_ARmy_Book_1_EPub_156.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_157.jpg" href="image/XX_P66_ARmy_Book_1_EPub_157.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_158.jpg" href="image/XX_P66_ARmy_Book_1_EPub_158.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_159.jpg" href="image/XX_P66_ARmy_Book_1_EPub_159.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_160.jpg" href="image/XX_P66_ARmy_Book_1_EPub_160.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_161.jpg" href="image/XX_P66_ARmy_Book_1_EPub_161.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_162.jpg" href="image/XX_P66_ARmy_Book_1_EPub_162.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_163.jpg" href="image/XX_P66_ARmy_Book_1_EPub_163.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_164.jpg" href="image/XX_P66_ARmy_Book_1_EPub_164.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_165.jpg" href="image/XX_P66_ARmy_Book_1_EPub_165.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_166.jpg" href="image/XX_P66_ARmy_Book_1_EPub_166.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_167.jpg" href="image/XX_P66_ARmy_Book_1_EPub_167.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_168.jpg" href="image/XX_P66_ARmy_Book_1_EPub_168.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_169.jpg" href="image/XX_P66_ARmy_Book_1_EPub_169.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_170.jpg" href="image/XX_P66_ARmy_Book_1_EPub_170.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_171.jpg" href="image/XX_P66_ARmy_Book_1_EPub_171.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_172.jpg" href="image/XX_P66_ARmy_Book_1_EPub_172.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_173.jpg" href="image/XX_P66_ARmy_Book_1_EPub_173.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_174.jpg" href="image/XX_P66_ARmy_Book_1_EPub_174.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_175.jpg" href="image/XX_P66_ARmy_Book_1_EPub_175.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_176.jpg" href="image/XX_P66_ARmy_Book_1_EPub_176.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_177.jpg" href="image/XX_P66_ARmy_Book_1_EPub_177.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_178.jpg" href="image/XX_P66_ARmy_Book_1_EPub_178.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_179.jpg" href="image/XX_P66_ARmy_Book_1_EPub_179.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_180.jpg" href="image/XX_P66_ARmy_Book_1_EPub_180.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_181.jpg" href="image/XX_P66_ARmy_Book_1_EPub_181.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_182.jpg" href="image/XX_P66_ARmy_Book_1_EPub_182.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_183.jpg" href="image/XX_P66_ARmy_Book_1_EPub_183.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_184.jpg" href="image/XX_P66_ARmy_Book_1_EPub_184.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_185.jpg" href="image/XX_P66_ARmy_Book_1_EPub_185.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_186.jpg" href="image/XX_P66_ARmy_Book_1_EPub_186.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_187.jpg" href="image/XX_P66_ARmy_Book_1_EPub_187.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_188.jpg" href="image/XX_P66_ARmy_Book_1_EPub_188.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_189.jpg" href="image/XX_P66_ARmy_Book_1_EPub_189.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_190.jpg" href="image/XX_P66_ARmy_Book_1_EPub_190.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_191.jpg" href="image/XX_P66_ARmy_Book_1_EPub_191.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_192.jpg" href="image/XX_P66_ARmy_Book_1_EPub_192.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_193.jpg" href="image/XX_P66_ARmy_Book_1_EPub_193.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_194.jpg" href="image/XX_P66_ARmy_Book_1_EPub_194.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_195.jpg" href="image/XX_P66_ARmy_Book_1_EPub_195.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_196.jpg" href="image/XX_P66_ARmy_Book_1_EPub_196.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_197.jpg" href="image/XX_P66_ARmy_Book_1_EPub_197.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_198.jpg" href="image/XX_P66_ARmy_Book_1_EPub_198.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_199.jpg" href="image/XX_P66_ARmy_Book_1_EPub_199.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_200.jpg" href="image/XX_P66_ARmy_Book_1_EPub_200.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_201.jpg" href="image/XX_P66_ARmy_Book_1_EPub_201.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_202.jpg" href="image/XX_P66_ARmy_Book_1_EPub_202.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_203.jpg" href="image/XX_P66_ARmy_Book_1_EPub_203.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_204.jpg" href="image/XX_P66_ARmy_Book_1_EPub_204.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_205.jpg" href="image/XX_P66_ARmy_Book_1_EPub_205.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_206.jpg" href="image/XX_P66_ARmy_Book_1_EPub_206.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_207.jpg" href="image/XX_P66_ARmy_Book_1_EPub_207.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_208.jpg" href="image/XX_P66_ARmy_Book_1_EPub_208.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_209.jpg" href="image/XX_P66_ARmy_Book_1_EPub_209.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_210.jpg" href="image/XX_P66_ARmy_Book_1_EPub_210.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_211.jpg" href="image/XX_P66_ARmy_Book_1_EPub_211.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_212.jpg" href="image/XX_P66_ARmy_Book_1_EPub_212.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_213.jpg" href="image/XX_P66_ARmy_Book_1_EPub_213.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_214.jpg" href="image/XX_P66_ARmy_Book_1_EPub_214.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_216.jpg" href="image/XX_P66_ARmy_Book_1_EPub_216.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_217.jpg" href="image/XX_P66_ARmy_Book_1_EPub_217.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_218.jpg" href="image/XX_P66_ARmy_Book_1_EPub_218.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_219.jpg" href="image/XX_P66_ARmy_Book_1_EPub_219.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_220.jpg" href="image/XX_P66_ARmy_Book_1_EPub_220.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_221.jpg" href="image/XX_P66_ARmy_Book_1_EPub_221.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_222.jpg" href="image/XX_P66_ARmy_Book_1_EPub_222.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_223.jpg" href="image/XX_P66_ARmy_Book_1_EPub_223.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_224.jpg" href="image/XX_P66_ARmy_Book_1_EPub_224.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_225.jpg" href="image/XX_P66_ARmy_Book_1_EPub_225.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_226.jpg" href="image/XX_P66_ARmy_Book_1_EPub_226.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_227.jpg" href="image/XX_P66_ARmy_Book_1_EPub_227.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_228.jpg" href="image/XX_P66_ARmy_Book_1_EPub_228.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_229.jpg" href="image/XX_P66_ARmy_Book_1_EPub_229.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_230.jpg" href="image/XX_P66_ARmy_Book_1_EPub_230.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_231.jpg" href="image/XX_P66_ARmy_Book_1_EPub_231.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_232.jpg" href="image/XX_P66_ARmy_Book_1_EPub_232.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_233.jpg" href="image/XX_P66_ARmy_Book_1_EPub_233.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_234.jpg" href="image/XX_P66_ARmy_Book_1_EPub_234.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_235.jpg" href="image/XX_P66_ARmy_Book_1_EPub_235.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_236.jpg" href="image/XX_P66_ARmy_Book_1_EPub_236.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_237.jpg" href="image/XX_P66_ARmy_Book_1_EPub_237.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_238.jpg" href="image/XX_P66_ARmy_Book_1_EPub_238.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_239.jpg" href="image/XX_P66_ARmy_Book_1_EPub_239.jpg" media-type="image/jpeg" />
+		<item id="XX_P66_ARmy_Book_1_EPub_240.jpg" href="image/XX_P66_ARmy_Book_1_EPub_240.jpg" media-type="image/jpeg" />
+	</manifest>
+	<spine>
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-17" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-18" />
+		<itemref idref="ME_66_Army_Book_LotR_01-19_EPub-19" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_20-35_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-17" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-18" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-19" />
+		<itemref idref="ME_66_Army_Book_LotR_36-55_EPub-20" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_56-71_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_72-87_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_88-103_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_104-119_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_120-135_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-17" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-18" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-19" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-20" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-21" />
+		<itemref idref="ME_66_Army_Book_LotR_136-157_EPub-22" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-17" />
+		<itemref idref="ME_66_Army_Book_LotR_158-175_EPub-18" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_176-191_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-17" />
+		<itemref idref="ME_66_Army_Book_LotR_192-209_EPub-18" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_210-225_EPub-16" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-4" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-5" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-6" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-7" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-8" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-9" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-10" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-11" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-12" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-13" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-14" />
+		<itemref idref="ME_66_Army_Book_LotR_226-240_EPub-15" />
+		<itemref idref="ME_66_Army_Book_LotR_BEP_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_BEP_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_BEP_EPub-3" />
+		<itemref idref="ME_66_Army_Book_LotR_FEP_EPub-1" />
+		<itemref idref="ME_66_Army_Book_LotR_FEP_EPub-2" />
+		<itemref idref="ME_66_Army_Book_LotR_FEP_EPub-3" />
+	</spine>
+</package>

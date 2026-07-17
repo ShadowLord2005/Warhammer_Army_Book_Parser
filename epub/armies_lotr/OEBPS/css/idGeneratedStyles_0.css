@@ -1,0 +1,99 @@
+@font-face {
+	font-family:"BC Unciala Grand";
+	font-style:normal;
+	font-weight:300;
+	src : url("../font/BCUnciala-Grand.otf");
+}
+@font-face {
+	font-family:"BC Unciala Petit";
+	font-style:normal;
+	font-weight:500;
+	src : url("../font/BCUnciala-Petit.otf");
+}
+@font-face {
+	font-family:"BC Unciala";
+	font-style:normal;
+	font-weight:normal;
+	src : url("../font/BCUnciala-Regular.otf");
+}
+@font-face {
+	font-family:"Comic Sans MS";
+	font-style:normal;
+	font-weight:bold;
+	src : url("../font/ComicSansMS-Bold.ttf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro";
+	font-style:normal;
+	font-weight:bold;
+	src : url("../font/P22MackinacPro-Bold.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro";
+	font-style:italic;
+	font-weight:bold;
+	src : url("../font/P22MackinacPro-BoldItalic.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro";
+	font-style:oblique;
+	font-weight:bold;
+	src : url("../font/P22MackinacPro-BoldItalic.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro Book";
+	font-style:normal;
+	font-weight:normal;
+	src : url("../font/P22MackinacProBook.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro Book";
+	font-style:italic;
+	font-weight:normal;
+	src : url("../font/P22MackinacProBook-Italic.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro Book";
+	font-style:oblique;
+	font-weight:normal;
+	src : url("../font/P22MackinacProBook-Italic.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro Extra Bold";
+	font-style:normal;
+	font-weight:800;
+	src : url("../font/P22MackinacProExtraBold.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro Medium";
+	font-style:italic;
+	font-weight:500;
+	src : url("../font/P22MackinacProMedium-Italic.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro Medium";
+	font-style:oblique;
+	font-weight:500;
+	src : url("../font/P22MackinacProMedium-Italic.otf");
+}
+@font-face {
+	font-family:"P22 Mackinac Pro Medium";
+	font-style:normal;
+	font-weight:500;
+	src : url("../font/PMackinacProMedium.otf");
+}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+	text-rendering:optimizeSpeed;
+}
+div.L-R-3mm-Indent {
+	border-style:solid;
+}
+div.Race---Faction---Unit-Type {
+	border-style:solid;
+}
+div.Basic-Text-Frame {
+	border-style:solid;
+}
