@@ -98,13 +98,18 @@ class Profile:
 
     #Function that calls all of the parsers to get the information from a page
     def parse_page(self):
+        #All of the parsers are called
         self.name_cost_parser()
         self.wargear_parser()
         self.options_parser()
         self.rules_parser()
+
+        #This checks if the function is being called by a subclass which must implement it's own printing
         if self.__class__ != Profile:
             return
         else:
+            #This then goes through and prints a list of each attribute if they exist
+            #It also takes account of any special items which require different printing
             print("=================================")
             print(f"Name: {self.name} ({self.cost})")
             if self.wargear_type != Typer.NONE:
@@ -395,11 +400,13 @@ class Profile:
 #Profile class with specific addons for Heroes
 class HeroProfile(Profile):
     def __init__(self, profile_tags: BeautifulSoup) -> None:
+        #This makes sure to set up the needed variables before calling the super init
         self.heroic_actions : list[str] = []
         self.heroic_type : Typer
         super().__init__(profile_tags)
         self.parse_page()
 
+    #This calls any parsers specific to heroes before implementing its own print method after the super has been called
     def parse_page(self):
         self.heroic_parser()
         super().parse_page()
@@ -437,6 +444,7 @@ class HeroProfile(Profile):
                     print(f"\t\t {item[3]}")
         print("=================================")
 
+    #This is the specific parser for the Heroic Actions
     def heroic_parser(self):
         data = self.data.find_all(class_=ProfilePartIdentifierClasses.WARGEAR__OPTIONS__SPECIAL_RULES.identifier)
         header : Tag  | None = None
@@ -452,7 +460,6 @@ class HeroProfile(Profile):
             return
 
         #Goes through all the sibling tags and adds them to the body contents until another header is reached
-
         for sibling in header.next_siblings:
             if sibling in data:
                 break
