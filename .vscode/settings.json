@@ -1,10 +1,18 @@
 {
     "cSpell.words": [
+        "Baggins",
+        "Defence",
         "ebooklib",
+        "Elrond",
+        "Elven",
+        "gimli",
         "imread",
         "lotr",
+        "Mithril",
+        "Mordor",
         "OEBPS",
-        "WARGEAR"
+        "Rivendell",
+        "wargear"
     ],
     "python.REPL.enableREPLSmartSend": false
 }
