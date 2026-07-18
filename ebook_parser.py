@@ -18,6 +18,13 @@ def path_to_tags(path:str) -> BeautifulSoup:
         path_tags = BeautifulSoup(file, builder=builder, from_encoding="utf-8")
     return path_tags
 
+#Enum for the different types of things (Wargear, Options, Special Rules, etc)
+class Typer(Enum):
+    STANDARD_ONLY = auto()
+    SPECIAL_ONLY = auto()
+    MIXED = auto()
+    NONE = auto()
+
 #Parent Enum for the different Part Identifiers that adds some functionality to help with identifying specific parts and their quantity
 class PartIdentifierParent(str, Enum):
     identifier : str
@@ -77,14 +84,33 @@ class Profile:
         #Make the tags accessible from within functions
         self.data = profile_tags
 
-        #Set up the lists of items from a page to be accessible in functions
-        self.wargear : list[tuple[str,str,str|None]] = []
-        self.options : list[tuple[str,str, int, str|None]] = []
-        self.special_rules : list[tuple[str, str, str|None, str|None]] = []
+        #Set up the items from a page to be accessible in functions
         self.name : str
-        self.points : int
+        self.cost : int
+        self.wargear : list[tuple[str,str,str|None]] = []
+        self.wargear_type : Typer
+        self.options : list[tuple[str,str, int, str|None]] = []
+        self.options_type : Typer
+        self.special_rules : list[tuple[str, str, str|None, str|None]] = []
+        self.rules_type : Typer
+        print("------------------")
+        self.name_cost_parser()
+        self.wargear_parser()
+        self.options_parser()
+        self.rules_parser()
+        print("------------------")
 
-        self.has_other_headers()
+    #Function to get the name and cost from a page
+    def name_cost_parser(self):
+        data = self.data.find(class_=ProfilePartIdentifierClasses.NAME__POINTS.identifier)
+        if data == None:
+            print("No Name or Points Cost")
+            return
+        content = data.get_text().split(".")
+        self.name = content[0]
+        self.cost = int(content[-1].removesuffix("points"))
+        print(f"Name: {self.name}\nCost: {self.cost}")
+        return
 
     #Function to get the wargear from a page
     def wargear_parser(self):
@@ -98,7 +124,7 @@ class Profile:
                 break
         #If a character has no default wargear this exits the function
         if header is None:
-            print("No Wargear")
+            self.wargear_type = Typer.NONE
             return
         body : list[Tag] = []
         #This looks at all of the tags on the same level as the header in the order they occur in the document and puts them all into a list until it reaches the next header then breaks out of the for loop
@@ -115,12 +141,11 @@ class Profile:
         items_text = items_tag.get_text().replace(" and ",",")
         war_gear = items_text.split(",")
         for gear in war_gear:
-            self.wargear.append((gear,"Standard",None))
+            self.wargear.append((gear.strip(),"Standard",None))
 
         #This checks if there is only one tag meaning that no wargear has a description and thus it is all standard. If so it exits
         if len(body) == 1:
-            print("No Special Wargear")
-            print(self.wargear)
+            self.wargear_type = Typer.STANDARD_ONLY
             return
 
         #This gets all the items of special wargear, determines whether they are active or passive and then adds the name, type and description to the list of wargear
@@ -144,13 +169,19 @@ class Profile:
             #If it can't be found it adds it to the bottom of the list
             for i in range(len(self.wargear)):
                 if self.wargear[i][0] == wargear_name:
-                    self.wargear[i] = (wargear_name,wargear_type, "".join(description_text))
+                    self.wargear[i] = (wargear_name,wargear_type, "".join(description_text).strip())
                     break
                 elif i == len(self.wargear):
-                    self.wargear.append((wargear_name,wargear_type, "".join(description_text)))
+                    self.wargear.append((wargear_name,wargear_type, "".join(description_text).strip()))
                 else:
                     continue
-        print(self.wargear)
+        for gear in self.wargear:
+            if gear[1] == "Standard":
+                self.wargear_type = Typer.MIXED
+                return
+            else:
+                continue
+        self.wargear_type = Typer.SPECIAL_ONLY
         return
 
     #Function to get the options from a page
@@ -165,7 +196,7 @@ class Profile:
                 header = item
                 break
         if header is None:
-            print("No Options")
+            self.options_type = Typer.NONE
             return
         option_items : list[Tag] = []
         option_descriptions : list[Tag] = []
@@ -187,14 +218,13 @@ class Profile:
         #It then adds it to the list of options with the "Standard" type and no description
         for tag in option_items:
             content = tag.get_text().split(".")
-            option = content[0]
+            option = content[0].strip()
             cost = int(content[-1].removesuffix("points"))
             self.options.append((option,"Standard",cost,None))
 
         #This then checks for any special wargear and if there is none exits
         if len(option_descriptions) < 1:
-            print("No Special Options")
-            print(self.options)
+            self.options_type = Typer.STANDARD_ONLY
             return
 
         #This then iterates through all the special wargear, gets their name, type and description and adds it to the main list
@@ -215,13 +245,19 @@ class Profile:
             for i in range(len(self.options)):
                 if self.options[i][0] == option_name:
                     points = self.options[i][2]
-                    self.options[i] = (option_name,option_type,points, "".join(description_text))
+                    self.options[i] = (option_name,option_type,points, "".join(description_text).strip())
                     break
                 elif i == len(self.options):
-                    self.options.append((option_name,option_type, -1,"".join(description_text)))
+                    self.options.append((option_name,option_type, -1,"".join(description_text).strip()))
                 else:
                     continue
-        print(self.options)
+        for option in self.options:
+            if option[1] == "Standard":
+                self.option_type = Typer.MIXED
+                return
+            else:
+                continue
+        self.option_type = Typer.SPECIAL_ONLY
         return
 
     #Function to get the special rules from a page
@@ -236,7 +272,7 @@ class Profile:
                 header = item
                 break
         if header is None:
-            print("No Special Rules")
+            self.rules_type = Typer.NONE
             return
 
         #This then goes through and gets all of the sibling tags that are special rules
@@ -262,12 +298,12 @@ class Profile:
 
             #This then checks if there are any non-standard rules and if not exits
             if len(body) == 1:
-                print("Only Standard Special Rules")
-                print(self.special_rules)
+                self.rules_type = Typer.STANDARD_ONLY
                 return
+            self.rules_type = Typer.MIXED
             i = 1
         else:
-            print("No Standard Special Rules")
+            self.rules_type = Typer.SPECIAL_ONLY
             i=0
 
         #The list of body tags is iterated over (Starting at 0 for no standard rules and 1 if there are standard rules) to get all of the other special rules
@@ -306,24 +342,21 @@ class Profile:
             #Once either a new rule has been found or the end of the body list has been reached the rule is added to the list of special rules
             self.special_rules.append((rule_name, rule_type, "".join(rule_short), "\n".join(rule_description)))
             #If the end of the list has not been reached then the first while loop runs again and a new special rule is found
-        print(self.special_rules)
         return
 
-    def has_other_headers(self) -> bool:
+    #Function to check for other headers
+    def has_other_headers(self) -> tuple[bool, list[Tag]]:
         data = self.data.find_all(class_=ProfilePartIdentifierClasses.WARGEAR__OPTIONS__SPECIAL_RULES.identifier)
         other_headers : list[Tag] = []
-        #As the identifier can get many items this looks for the one we are after
-        #Note that these are actually the headers above the data that we a looking for
+        #This checks if the headers discovered are the ones we are looking for and adds any others to a list
         for item in data:
             if item.get_text().lower() in ProfilePartIdentifierClasses.WARGEAR__OPTIONS__SPECIAL_RULES.value:
                 continue
             else:
                 other_headers.append(item)
-        if len(other_headers) == 0:
-            return False
-        for header in other_headers:
-            print(header.get_text())
-        return True
+        #If there are other headers this returns true and a list of them
+        return ((len(other_headers) > 0), other_headers)
+
 
 
 class HeroProfile(Profile):
