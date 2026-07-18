@@ -93,12 +93,6 @@ class Profile:
         self.options_type : Typer
         self.special_rules : list[tuple[str, str, str|None, str|None]] = []
         self.rules_type : Typer
-        print("------------------")
-        self.name_cost_parser()
-        self.wargear_parser()
-        self.options_parser()
-        self.rules_parser()
-        print("------------------")
 
     #Function to get the name and cost from a page
     def name_cost_parser(self):
@@ -360,21 +354,70 @@ class Profile:
 
 
 class HeroProfile(Profile):
-    pass
+    def __init__(self, profile_tags: BeautifulSoup) -> None:
+        super().__init__(profile_tags)
+        self.heroic_actions : list[str] = []
+        self.heroic_type : Typer
+
+        self.heroic_parser()
+
+    def heroic_parser(self):
+        data = self.data.find_all(class_=ProfilePartIdentifierClasses.WARGEAR__OPTIONS__SPECIAL_RULES.identifier)
+        header : Tag  | None = None
+
+        #As the identifier can get many items this looks for the one we are after
+        #Note that these are actually the headers above the data that we a looking for
+        for item in data:
+            if item.get_text().lower() == "heroic actions":
+                header = item
+                break
+        if header is None:
+            self.heroic_type = Typer.NONE
+            return
+
+        #Goes through all the sibling tags and adds them to the body contents until another header is reached
+
+        for sibling in header.next_siblings:
+            if sibling in data:
+                break
+            elif type(sibling) == Tag:
+                self.heroic_actions.append(sibling.get_text())
+            else:
+                continue
+        self.heroic_type = Typer.STANDARD_ONLY
+        return
+
+    #Function that calls the superclass function and then removes additional headers before updating the return
+    def has_other_headers(self) -> tuple[bool, list[Tag]]:
+        #This gets the outcome and the list of headers from the super function
+        profile_outcome, headers =  super().has_other_headers()
+        #If no other headers were detected this simply returns the original data
+        if not(profile_outcome):
+            return (profile_outcome, headers)
+        else:
+            #If additional headers were detected this checks them against any other headers that are expected in Hero Profiles and then removes them
+            for item in headers:
+                if item.get_text().lower() in HeroProfilePartIdentifierClasses.WARGEAR__HEROIC_ACTIONS__OPTIONS__SPECIAL_RULES.value:
+                    headers.remove(item)
+                else:
+                    continue
+            #This then returns true if headers still has any items along with the list of headers
+            return (len(headers) > 0, headers)
+
 
 
 frodo_tags = path_to_tags("epub/armies_lotr/OEBPS/ME_66_Army_Book_LotR_01-19_EPub-9.xhtml")
 
-Profile(frodo_tags)
+HeroProfile(frodo_tags)
 
 saw_tags = path_to_tags("epub/armies_lotr/OEBPS/ME_66_Army_Book_LotR_01-19_EPub-10.xhtml")
 
-Profile(saw_tags)
+HeroProfile(saw_tags)
 
 gandalf_tags = path_to_tags("epub/armies_lotr/OEBPS/ME_66_Army_Book_LotR_01-19_EPub-12.xhtml")
 
-Profile(gandalf_tags)
+HeroProfile(gandalf_tags)
 
 gimli_tags = path_to_tags("epub/armies_lotr/OEBPS/ME_66_Army_Book_LotR_01-19_EPub-15.xhtml")
 
-Profile(gimli_tags)
+HeroProfile(gimli_tags)
