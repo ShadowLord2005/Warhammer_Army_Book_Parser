@@ -53,7 +53,7 @@ class HeroProfilePartIdentifierClasses(PartIdentifierParent):
     STAT_LINE = (["Stat_Line"],"Unit-Profile_Unit-Stat-Line",2)
     NAME__POINTS = (["Name","Points"],"CharOverride-11",0)
     MIGHT__WILL__FATE = (["Might","Will","Fate"],"Unit-Profile_Might-Will-Fate-Numbers",3)
-    WARGEAR__HEROIC_ACTIONS__OPTIONS__SPECIAL_RULES = (["heroic actions"],"CharOverride-13",-1)
+    WARGEAR__HEROIC_ACTIONS__OPTIONS__SPECIAL_RULES = (["heroic actions"],"Header_H4",-1)
 
 #Identifier Elements for an Army List (NYI)
 class ArmyListPartIdentifierClasses(Enum):
@@ -70,6 +70,8 @@ class PageTypes(Enum):
     UNIT_PROFILE = auto()
     MULTI_PROFILE = auto()
     ARMY_LIST = auto()
+    SIEGE_ENGINE = auto()
+    WARBAND = auto()
 
 #Ensures that is is possible to suse class_ be using the HTML attributes with an XML Parser
 builder = LXMLTreeBuilderForXML(
@@ -94,6 +96,45 @@ class Profile:
         self.special_rules : list[tuple[str, str, str|None, str|None]] = []
         self.rules_type : Typer
 
+    #Function that calls all of the parsers to get the information from a page
+    def parse_page(self):
+        self.name_cost_parser()
+        self.wargear_parser()
+        self.options_parser()
+        self.rules_parser()
+        if self.__class__ != Profile:
+            return
+        else:
+            print("=================================")
+            print(f"Name: {self.name} ({self.cost})")
+            if self.wargear_type != Typer.NONE:
+                print("Wargear:")
+                for item in self.wargear:
+                    if item[2] is None:
+                        print(f"\t-{item[0]}")
+                    else:
+                        print(f"\t-{item[0]} ({item[1]})")
+                        print(f"\t\t-{item[2]}")
+            if self.rules_type != Typer.NONE:
+                print("Special Rules:")
+                for item in self.special_rules:
+                    if item[2] is None:
+                        print(f"\t-{item[0]}")
+                    else:
+                        print(f"\t{item[0]} ({item[1]})")
+                        print(f"\t\t-{item[2]}")
+                        print(f"\t\t {item[3]}")
+            if self.options_type != Typer.NONE:
+                print("Options:")
+                for item in self.options:
+                    if item[3] is None:
+                        print(f"\t-{item[0]} ({item[2]})")
+                    else:
+                        print(f"\t-{item[0]} ({item[2]})")
+                        print(f"\t\t-{item[1]}")
+                        print(f"\t\t {item[3]}")
+            print("=================================")
+
     #Function to get the name and cost from a page
     def name_cost_parser(self):
         data = self.data.find(class_=ProfilePartIdentifierClasses.NAME__POINTS.identifier)
@@ -103,7 +144,6 @@ class Profile:
         content = data.get_text().split(".")
         self.name = content[0]
         self.cost = int(content[-1].removesuffix("points"))
-        print(f"Name: {self.name}\nCost: {self.cost}")
         return
 
     #Function to get the wargear from a page
@@ -247,11 +287,11 @@ class Profile:
                     continue
         for option in self.options:
             if option[1] == "Standard":
-                self.option_type = Typer.MIXED
+                self.options_type = Typer.MIXED
                 return
             else:
                 continue
-        self.option_type = Typer.SPECIAL_ONLY
+        self.options_type = Typer.SPECIAL_ONLY
         return
 
     #Function to get the special rules from a page
@@ -352,14 +392,50 @@ class Profile:
         return ((len(other_headers) > 0), other_headers)
 
 
-
+#Profile class with specific addons for Heroes
 class HeroProfile(Profile):
     def __init__(self, profile_tags: BeautifulSoup) -> None:
-        super().__init__(profile_tags)
         self.heroic_actions : list[str] = []
         self.heroic_type : Typer
+        super().__init__(profile_tags)
+        self.parse_page()
 
+    def parse_page(self):
         self.heroic_parser()
+        super().parse_page()
+        print("=================================")
+        print(f"Name: {self.name} ({self.cost})")
+        if self.wargear_type != Typer.NONE:
+            print("Wargear:")
+            for item in self.wargear:
+                if item[2] is None:
+                    print(f"\t-{item[0]}")
+                else:
+                    print(f"\t-{item[0]} ({item[1]})")
+                    print(f"\t\t-{item[2]}")
+        if self.heroic_type != Typer.NONE:
+            print("Heroic Actions:")
+            for item in self.heroic_actions:
+                print(f"\t-{item}")
+        if self.rules_type != Typer.NONE:
+            print("Special Rules:")
+            for item in self.special_rules:
+                if item[2] is None:
+                    print(f"\t-{item[0]}")
+                else:
+                    print(f"\t{item[0]} ({item[1]})")
+                    print(f"\t\t-{item[2]}")
+                    print(f"\t\t {item[3]}")
+        if self.options_type != Typer.NONE:
+            print("Options:")
+            for item in self.options:
+                if item[3] is None:
+                    print(f"\t-{item[0]} ({item[2]})")
+                else:
+                    print(f"\t-{item[0]} ({item[2]})")
+                    print(f"\t\t-{item[1]}")
+                    print(f"\t\t {item[3]}")
+        print("=================================")
 
     def heroic_parser(self):
         data = self.data.find_all(class_=ProfilePartIdentifierClasses.WARGEAR__OPTIONS__SPECIAL_RULES.identifier)
